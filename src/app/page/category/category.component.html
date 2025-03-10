@@ -1,0 +1,116 @@
+<section class="bg-black w-170 container mx-auto min-h-[400px] ">
+  <!-- Header -->
+  <div class="mb-8 flex justify-end pr-10">
+    <a
+      href="#"
+      class="text-red-500 text-sm sm:text-base font-semibold flex items-center hover:text-red-300 transition duration-300 mt-4 sm:mt-6"
+    >
+      View All
+      <i class="fa fa-arrow-right ml-2"></i>
+    </a>
+  </div>
+
+  <!-- Slider Container -->
+  <div class="slider-wrapper overflow-x-auto whitespace-nowrap scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-900 w-160 pr-10 h-96">
+    <div class="inline-flex gap-6 sm:gap-8 p-5">
+      <!-- Card 1: Movies & TV Shows -->
+      <div
+        class="relative w-50 max-w-xs h-[290px] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 flex-shrink-0"
+      >
+        <img
+          src="images/movies.png"
+          alt="Movies & TV Shows"
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-br from-black/60 via-transparent to-black/60 flex items-end p-4"
+        >
+          <div class="bg-black/20 p-2 rounded-lg">
+            <h3 class="text-white text-lg font-semibold text-center">Movies & TV Shows</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Books & Literature -->
+      <div
+        class="relative w-50 max-w-xs h-[290px] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 flex-shrink-0"
+      >
+        <img
+          src="images/books.png"
+          alt="Books & Literature"
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-bl from-black/60 via-transparent to-black/60 flex items-end p-4"
+        >
+          <div class="bg-black/20 p-2 rounded-lg">
+            <h3 class="text-white text-lg font-semibold text-center">Books</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Toys & Collectibles -->
+      <div
+        class="relative w-50 max-w-xs h-[290px] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 flex-shrink-0"
+      >
+        <img
+          src="images/toys.png"
+          alt="Toys & Collectibles"
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-black/60 flex items-end p-4"
+        >
+          <div class="bg-black/20 p-2 rounded-lg">
+            <h3 class="text-white text-lg font-semibold text-center">Toys & Collectibles</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: Electronics -->
+      <div
+        class="relative w-50 max-w-xs h-[290px] rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 flex-shrink-0"
+      >
+        <img
+          src="images/electronics.png"
+          alt="Electronics"
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-tl from-black/60 via-transparent to-black/60 flex items-end p-4"
+        >
+          <div class="bg-black/20 p-2 rounded-lg">
+            <h3 class="text-white text-lg font-semibold text-center">Electronics</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Slider Wrapper */
+.slider-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  overflow-x: auto;
+  scrollbar-color: #000000 #000000;
+  scroll-behavior: smooth; 
+}
+
+/* Webkit Scrollbar Styling */
+.slider-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.slider-wrapper::-webkit-scrollbar-thumb {
+  background-color: #ff4343;
+  border-radius: 10px;
+}
+
+.slider-wrapper::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+
+</style>

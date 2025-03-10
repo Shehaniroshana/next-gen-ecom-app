@@ -1,0 +1,41 @@
+<nav class="bg-black text-red-500">
+  <div class="container mx-auto flex justify-between items-center">
+    
+    <div class="flex">
+       <!-- Logo -->
+    <h1 class=" w-64 px-4 py-2 text-3xl font-extrabold justify-center items-center">Next Ecom</h1>
+
+    
+    <!-- Navigation Links  -->
+    <div class="md:flex space-x-10 px-4 py-4 rounded-lg text-red-50 justify-center items-center">
+      <a class="hover:text-red-300 text-center transition duration-300 ease-in-out transform hover:scale-110" routerLink="/">Home</a>
+      <a class="hover:text-red-300 text-center transition duration-300 ease-in-out transform hover:scale-110" routerLink="/product">Products</a>
+      <a class="hover:text-red-300 text-center transition duration-300 ease-in-out transform hover:scale-110">Checkout</a>
+      <a class="hover:text-red-300 text-center transition duration-300 ease-in-out transform hover:scale-110">Login</a>
+      <a class="hover:text-red-300 text-center transition duration-300 ease-in-out transform hover:scale-110">Register</a>
+    </div>
+
+    </div>
+   
+    <!-- Search & Cart -->
+    <div class="flex items-center space-x-2 px-4 py-2 rounded-lg">
+
+     <div class="flex  space-x-2 px-3 py-1 w-80 border-1 border-red-400 rounded-2xl focus:ring-1 focus:ring-red-300">
+      <input type="text" placeholder="Search..." 
+        class="px-3 py-1 w-80 textdecoration-none bg-transparent focus:outline-none placeholder-amber-50">
+
+      <button class="text-red-500 hover:text-white transition duration-300">
+        <i class="fa fa-search"></i>
+      </button>
+      
+     </div>
+      
+      <button class="text-red-500 hover:text-white transition duration-300 pr-5">
+        <i class="fa fa-shopping-cart"></i>
+      </button>
+    </div>
+    
+  </div>
+
+</nav>
+<router-outlet></router-outlet>
