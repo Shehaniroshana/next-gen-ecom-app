@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PostFooterComponent } from '../post-footer/post-footer.component';
 
 @Component({
   selector: 'app-product-list',
